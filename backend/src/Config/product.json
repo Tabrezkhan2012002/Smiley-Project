@@ -1,0 +1,131 @@
+[
+  {
+    "_id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "brand": "Sony",
+    "category": "Electronics",
+    "price": 2999,
+    "currency": "INR",
+    "inStock": true,
+    "rating": 4.5,
+    "tags": ["audio", "wireless", "bluetooth"],
+    "specifications": {
+      "batteryLife": "30 hours",
+      "noiseCancellation": true,
+      "bluetoothVersion": "5.2",
+      "weight": "250g"
+    },
+    "seller": {
+      "name": "TechStore",
+      "location": "Delhi",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "user": "Amit",
+        "rating": 5,
+        "comment": "Amazing sound quality!"
+      },
+      {
+        "user": "Riya",
+        "rating": 4,
+        "comment": "Comfortable but थोड़ा expensive"
+      }
+    ],
+    "createdAt": "2026-01-15T10:30:00Z"
+  },
+  {
+    "_id": 2,
+    "name": "Smartphone 5G",
+    "brand": "Samsung",
+    "category": "Mobiles",
+    "price": 18999,
+    "currency": "INR",
+    "inStock": true,
+    "rating": 4.3,
+    "tags": ["android", "5G", "smartphone"],
+    "specifications": {
+      "ram": "8GB",
+      "storage": "128GB",
+      "battery": "5000mAh",
+      "camera": "64MP"
+    },
+    "seller": {
+      "name": "MobileHub",
+      "location": "Mumbai",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "user": "Rahul",
+        "rating": 4,
+        "comment": "Good performance"
+      },
+      {
+        "user": "Sneha",
+        "rating": 5,
+        "comment": "Camera is awesome!"
+      }
+    ],
+    "createdAt": "2026-02-10T14:20:00Z"
+  },
+  {
+    "_id": 3,
+    "name": "Running Shoes",
+    "brand": "Nike",
+    "category": "Footwear",
+    "price": 2499,
+    "currency": "INR",
+    "inStock": false,
+    "rating": 4.6,
+    "tags": ["sports", "running", "shoes"],
+    "specifications": {
+      "sizeAvailable": [7, 8, 9, 10],
+      "material": "Mesh",
+      "sole": "Rubber"
+    },
+    "seller": {
+      "name": "FitStore",
+      "location": "Bangalore",
+      "verified": false
+    },
+    "reviews": [
+      {
+        "user": "Karan",
+        "rating": 5,
+        "comment": "Very comfortable"
+      }
+    ],
+    "createdAt": "2026-03-01T09:00:00Z"
+  },
+  {
+    "_id": 4,
+    "name": "Laptop",
+    "brand": "HP",
+    "category": "Computers",
+    "price": 55999,
+    "currency": "INR",
+    "inStock": true,
+    "rating": 4.2,
+    "tags": ["laptop", "work", "office"],
+    "specifications": {
+      "processor": "Intel i5",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "screen": "15.6 inch"
+    },
+    "seller": {
+      "name": "LaptopWorld",
+      "location": "Chennai",
+      "verified": true
+    },
+    "reviews": [
+      {
+        "user": "Ankit",
+        "rating": 4,
+        "comment": "Good for office work"
+      }
+    ],
+    "createdAt": "2026-03-20T12:45:00Z"
+  }
+]
